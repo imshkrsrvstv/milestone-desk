@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#edf1f7" />
+    <title>Milestone Desk — proof before payment</title>
+    <script src="./theme.js"></script>
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./vendor/ag-grid-community-36.3.0.min.js"></script>
+    <script type="module" src="./app.mjs"></script>
+  </head>
+  <body>
+    <a class="skip" href="#main">Skip to milestones</a>
+    <div class="shell">
+      <aside class="sidebar">
+        <a class="brand" href="./" aria-label="Milestone Desk home"
+          ><span class="brandmark" aria-hidden="true"
+            ><i></i><i></i><i></i></span
+          ><span>Milestone<strong>Desk</strong></span></a
+        >
+        <p class="workspace-label">Your project space</p>
+        <label class="project-picker"
+          >Project<select
+            id="projects"
+            disabled
+            aria-label="Choose project"
+          ></select></label
+        ><button class="new-project" id="new-project" disabled>
+          ＋ New project
+        </button>
+        <nav class="sidebar-note" aria-label="Review workflow">
+          <p>Follow the record</p>
+          <a href="#delivery-record"><span>1</span> Delivery evidence</a>
+          <a href="#acceptance-record"><span>2</span> Your acceptance</a>
+          <a href="#invoice-record"><span>3</span> Invoice draft</a>
+          <div class="rail-caption">Every invoice<br />has its evidence.</div>
+        </nav>
+        <div class="sidebar-bottom">
+          <button id="connection" disabled>Connections</button
+          ><a href="./api/export" download>Export review packet</a>
+          <p>PayPal sandbox<br /><span>Draft invoices only</span></p>
+        </div>
+      </aside>
+      <main id="main" tabindex="-1">
+        <header class="topbar">
+          <span class="breadcrumb"
+            >Projects <span>/</span> Delivery review</span
+          >
+          <div class="topbar-actions">
+            <span class="sandbox-badge"><i></i> Sandbox only</span
+            ><button
+              id="theme-toggle"
+              class="theme-toggle"
+              type="button"
+              aria-pressed="false"
+              aria-label="Dark theme"
+            >
+              <span class="theme-symbol" aria-hidden="true">◐</span
+              ><span id="theme-label">Dark theme</span>
+            </button>
+          </div>
+        </header>
+        <section id="view"><p class="loading">Opening your desk…</p></section>
+        <footer>
+          Made for work you can stand behind.<span>Drafts stay unsent</span>
+        </footer>
+      </main>
+    </div>
+    <dialog id="dialog" aria-labelledby="dialog-title">
+      <div id="dialog-content"></div>
+    </dialog>
+    <div id="notice" role="status" aria-live="polite"></div>
+    <div id="job" role="status" hidden></div>
+    <noscript>Enable JavaScript to review milestones.</noscript>
+  </body>
+</html>

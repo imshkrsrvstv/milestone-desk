@@ -1,0 +1,11 @@
+{
+  "package": "ag-grid-community",
+  "version": "36.3.0",
+  "license": "MIT",
+  "source": "https://registry.npmjs.org/ag-grid-community/36.3.0",
+  "tarballIntegrity": "sha512-0JRaIwE82TuOcx+upA3OnTyhDAIUDqrMxLoBib6yVON0SyfICdpOnwD4QdiT0A1lgrC8SkzLBFRst73bTREF6Q==",
+  "bundleSha256": "5fc8736cc0726dcd2e2901681180462fe4d1a519b31a2b4ab7268a97a52a3532",
+  "installScriptsRun": false,
+  "scope": "Pinned standalone UMD Community browser bundle only; no npm install, enterprise package, CDN runtime request, credentials or network configuration.",
+  "checkedOn": "2026-11-11"
+}

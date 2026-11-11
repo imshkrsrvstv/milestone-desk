@@ -1,0 +1,76 @@
+{
+  "at": "2026-11-11T06:30:26.842Z",
+  "checks": [
+    {
+      "scene": "Populated review",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "scene": "Invoice preview and missing configuration",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "scene": "Populated acceptance dialog",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "scene": "Populated review",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "scene": "Invoice preview and missing configuration",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "scene": "Populated acceptance dialog",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "scene": "Empty evidence and review",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "scene": "Connections and appearance",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "scene": "Empty evidence and review",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "scene": "Connections and appearance",
+      "theme": "dark",
+      "violations": []
+    },
+    {
+      "scene": "Unavailable service",
+      "theme": "light",
+      "violations": []
+    },
+    {
+      "scene": "Unavailable service",
+      "theme": "dark",
+      "violations": []
+    }
+  ],
+  "widths": [
+    320,
+    390,
+    768,
+    1450
+  ],
+  "themePersistence": true,
+  "systemInitialBeforeAppModule": true,
+  "systemChanges": true,
+  "keyboardToggleAndDialogFocus": true,
+  "unsavedContentRetained": true
+}

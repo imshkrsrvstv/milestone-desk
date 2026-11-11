@@ -1,0 +1,193 @@
+{
+  "bugs": {
+    "url": "https://github.com/ag-grid/ag-grid/issues"
+  },
+  "dist": {
+    "shasum": "c918baeeb7c2819f6455d71fcaf10b324c35c993",
+    "tarball": "https://registry.npmjs.org/ag-grid-community/-/ag-grid-community-36.3.0.tgz",
+    "fileCount": 686,
+    "integrity": "sha512-0JRaIwE82TuOcx+upA3OnTyhDAIUDqrMxLoBib6yVON0SyfICdpOnwD4QdiT0A1lgrC8SkzLBFRst73bTREF6Q==",
+    "signatures": [
+      {
+        "sig": "MEYCIQCGJOZTiTrELj+neYdr9Fppp7pyCXSyl55RaGuXFDJqUwIhAIYP9FjHtWJCJ7QT742COCgetVibFjV0+Ue5gzUaxZEP",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      },
+      {
+        "sig": "MEYCIQD8nDnpKcPM9HaQ0/Ac1CNq8rV9zzEJXiEhNSwgmLmhnQIhAO7pEAnUZl16fp2E2+KoFHtYqw9NwLdWi5v/rnpnTsWU",
+        "keyid": "SHA256:DhQ8wR5APBvFHLF/+Tc+AYvPOdTpcIDqOhxsBHRwC7U"
+      }
+    ],
+    "attestations": {
+      "url": "https://registry.npmjs.org/-/npm/v1/attestations/ag-grid-community@36.3.0",
+      "provenance": {
+        "predicateType": "https://slsa.dev/provenance/v1"
+      }
+    },
+    "unpackedSize": 21947043
+  },
+  "main": "./dist/package/main.cjs.js",
+  "name": "ag-grid-community",
+  "types": "./dist/types/src/main.d.ts",
+  "author": {
+    "name": "Sean Landsman",
+    "email": "sean@thelandsmans.com"
+  },
+  "module": "./dist/package/main.esm.mjs",
+  "exports": {
+    ".": {
+      "types": "./dist/types/src/main.d.ts",
+      "import": "./dist/package/main.esm.mjs",
+      "default": "./dist/package/main.cjs.js",
+      "require": "./dist/package/main.cjs.js"
+    },
+    "./styles": "./styles/_index.scss",
+    "./styles/ag-grid.css": "./styles/ag-grid.css",
+    "./styles/ag-grid.min.css": "./styles/ag-grid.min.css",
+    "./styles/ag-theme-alpine.css": "./styles/ag-theme-alpine.css",
+    "./styles/ag-theme-balham.css": "./styles/ag-theme-balham.css",
+    "./styles/ag-theme-quartz.css": "./styles/ag-theme-quartz.css",
+    "./styles/agGridAlpineFont.css": "./styles/agGridAlpineFont.css",
+    "./styles/agGridBalhamFont.css": "./styles/agGridBalhamFont.css",
+    "./styles/agGridQuartzFont.css": "./styles/agGridQuartzFont.css",
+    "./styles/ag-theme-material.css": "./styles/ag-theme-material.css",
+    "./styles/agGridClassicFont.css": "./styles/agGridClassicFont.css",
+    "./styles/agGridMaterialFont.css": "./styles/agGridMaterialFont.css",
+    "./styles/ag-theme-alpine.min.css": "./styles/ag-theme-alpine.min.css",
+    "./styles/ag-theme-balham.min.css": "./styles/ag-theme-balham.min.css",
+    "./styles/ag-theme-quartz.min.css": "./styles/ag-theme-quartz.min.css",
+    "./styles/agGridAlpineFont.min.css": "./styles/agGridAlpineFont.min.css",
+    "./styles/agGridBalhamFont.min.css": "./styles/agGridBalhamFont.min.css",
+    "./styles/agGridQuartzFont.min.css": "./styles/agGridQuartzFont.min.css",
+    "./styles/ag-theme-material.min.css": "./styles/ag-theme-material.min.css",
+    "./styles/agGridClassicFont.min.css": "./styles/agGridClassicFont.min.css",
+    "./styles/agGridMaterialFont.min.css": "./styles/agGridMaterialFont.min.css",
+    "./styles/ag-theme-alpine-no-font.css": "./styles/ag-theme-alpine-no-font.css",
+    "./styles/ag-theme-balham-no-font.css": "./styles/ag-theme-balham-no-font.css",
+    "./styles/ag-theme-quartz-no-font.css": "./styles/ag-theme-quartz-no-font.css",
+    "./styles/ag-grid-no-native-widgets.css": "./styles/ag-grid-no-native-widgets.css",
+    "./styles/ag-theme-material-no-font.css": "./styles/ag-theme-material-no-font.css",
+    "./styles/ag-theme-alpine-no-font.min.css": "./styles/ag-theme-alpine-no-font.min.css",
+    "./styles/ag-theme-balham-no-font.min.css": "./styles/ag-theme-balham-no-font.min.css",
+    "./styles/ag-theme-quartz-no-font.min.css": "./styles/ag-theme-quartz-no-font.min.css",
+    "./styles/ag-grid-no-native-widgets.min.css": "./styles/ag-grid-no-native-widgets.min.css",
+    "./styles/ag-theme-material-no-font.min.css": "./styles/ag-theme-material-no-font.min.css"
+  },
+  "gitHead": "0bfa458d832add005365c62732d613f6dd34b544",
+  "license": "MIT",
+  "_npmUser": {
+    "name": "GitHub Actions",
+    "email": "npm-oidc-no-reply@github.com",
+    "trustedPublisher": {
+      "id": "github",
+      "oidcConfigId": "4544ea83-1fa3-4e15-9c50-be796a67b14f"
+    }
+  },
+  "homepage": "https://www.ag-grid.com/",
+  "keywords": [
+    "ag",
+    "ag-grid",
+    "datagrid",
+    "data-grid",
+    "data grid",
+    "datatable",
+    "data-table",
+    "data table",
+    "grid",
+    "table",
+    "react",
+    "table",
+    "angular",
+    "angular data grid",
+    "angular table",
+    "angular-component",
+    "react",
+    "react data grid",
+    "react table",
+    "react-component",
+    "reactjs",
+    "vue",
+    "vuejs"
+  ],
+  "repository": {
+    "url": "git+https://github.com/ag-grid/ag-grid.git",
+    "type": "git"
+  },
+  "_npmVersion": "11.10.1",
+  "description": "Advanced Data Grid / Data Table supporting Javascript / Typescript / React / Angular / Vue",
+  "directories": {},
+  "maintainers": [
+    {
+      "name": "ceolter",
+      "email": "niall.crosby@gmail.com"
+    },
+    {
+      "name": "seanlandsman",
+      "email": "sean@thelandsmans.com"
+    },
+    {
+      "name": "alberto.gutierrez",
+      "email": "alberto.gutierrez.campo@gmail.com"
+    },
+    {
+      "name": "rmc.software",
+      "email": "rmc.software.consultancy@gmail.com"
+    }
+  ],
+  "sideEffects": [
+    "./styles/ag-grid-no-native-widgets.css",
+    "./styles/ag-grid-no-native-widgets.min.css",
+    "./styles/ag-grid.css",
+    "./styles/ag-grid.min.css",
+    "./styles/ag-theme-alpine-no-font.css",
+    "./styles/ag-theme-alpine-no-font.min.css",
+    "./styles/ag-theme-alpine.css",
+    "./styles/ag-theme-alpine.min.css",
+    "./styles/ag-theme-balham-no-font.css",
+    "./styles/ag-theme-balham-no-font.min.css",
+    "./styles/ag-theme-balham.css",
+    "./styles/ag-theme-balham.min.css",
+    "./styles/ag-theme-material-no-font.css",
+    "./styles/ag-theme-material-no-font.min.css",
+    "./styles/ag-theme-material.css",
+    "./styles/ag-theme-material.min.css",
+    "./styles/ag-theme-quartz-no-font.css",
+    "./styles/ag-theme-quartz-no-font.min.css",
+    "./styles/ag-theme-quartz.css",
+    "./styles/ag-theme-quartz.min.css",
+    "./styles/agGridAlpineFont.css",
+    "./styles/agGridAlpineFont.min.css",
+    "./styles/agGridBalhamFont.css",
+    "./styles/agGridBalhamFont.min.css",
+    "./styles/agGridClassicFont.css",
+    "./styles/agGridClassicFont.min.css",
+    "./styles/agGridMaterialFont.css",
+    "./styles/agGridMaterialFont.min.css",
+    "./styles/agGridQuartzFont.css",
+    "./styles/agGridQuartzFont.min.css"
+  ],
+  "_nodeVersion": "24.22.1",
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie >= 0",
+    "not ie_mob >= 0",
+    "not blackberry > 0"
+  ],
+  "dependencies": {
+    "ag-stack": "36.3.0",
+    "ag-charts-types": "14.3.0"
+  },
+  "_hasShrinkwrap": false,
+  "devDependencies": {
+    "blob-polyfill": "^9.0.20240710",
+    "web-streams-polyfill": "^4.3.0",
+    "text-encoding-polyfill": "^0.6.7",
+    "compression-streams-polyfill": "^0.1.7"
+  },
+  "_npmOperationalInternal": {
+    "tmp": "tmp/ag-grid-community_36.3.0_1793784827208_0.48074514156417336",
+    "host": "s3://npm-registry-packages-npm-production"
+  },
+  "_id": "ag-grid-community@36.3.0",
+  "version": "36.3.0"
+}
