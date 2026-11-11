@@ -34,17 +34,17 @@ Original vanilla JavaScript interface, pinned AG Grid Community 36.3.0, Node.js 
 - [x] Meaningful PayPal sandbox integration, tested against the actual API.
 - [x] Genuine AG Grid Community milestone comparison.
 - [x] Original source and MIT license, with third-party notices.
-- [ ] Publish a public source repository after owner review.
-- [ ] Provide a working judge-access URL or a confirmed free test setup.
+- [x] Publish the [public source repository](https://github.com/imshkrsrvstv/milestone-desk).
+- [x] Provide a [confirmed free local test setup](../README.md#run), including the verified local AI option.
 - [x] Record a working demo video under three minutes (`artifacts/demo.mp4`).
-- [ ] Publish the owner-reviewed video and add its public URL.
-- [ ] Confirm eligibility, reuse disclosures, and the exact Devpost fields.
-- [ ] Owner reviews and submits the final entry before the official deadline.
+- [x] Publish the [working demo on YouTube](https://youtu.be/eSDjjLaUI2M).
+- [x] Review eligibility, AI-assistance disclosures and third-party notices.
+- [ ] Complete the final Devpost fields and submit the entry before the official deadline.
 
-No prize or submission success is claimed. Sandbox tests do not prove live merchant eligibility or production readiness.
+The Devpost entry is pending. No prize or submission success is claimed. Sandbox tests do not prove live merchant eligibility or production readiness.
 
 ## Demonstration
 
-The captioned film in `artifacts/demo.mp4` shows the redesigned running app with a clearly fictional project. Its saved evidence mappings and human acceptance are existing verified records. The film rechecks the existing PayPal sandbox draft instead of creating another invoice. It shows the actual interface, grid filtering, both appearances, exact evidence excerpts, the recorded human decisions and the activity journal. See `artifacts/DEMO.md` for the scene list and recording limits.
+The [public captioned film](https://youtu.be/eSDjjLaUI2M), also available in `artifacts/demo.mp4`, shows the redesigned running app with a clearly fictional project. Its saved evidence mappings and human acceptance are existing verified records. The film rechecks the existing PayPal sandbox draft instead of creating another invoice. It shows the actual interface, grid filtering, both appearances, exact evidence excerpts, the recorded human decisions and the activity journal. See `artifacts/DEMO.md` for the scene list and recording limits.
 
 The final source and demo describe AI assistance accurately; no human-only authorship is claimed. AI assisted application development, and the application itself uses AI only to suggest evidence mappings. It never decides acceptance or creates invoices independently.
