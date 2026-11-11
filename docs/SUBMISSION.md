@@ -39,9 +39,9 @@ Original vanilla JavaScript interface, pinned AG Grid Community 36.3.0, Node.js 
 - [x] Record a working demo video under three minutes (`artifacts/demo.mp4`).
 - [x] Publish the [working demo on YouTube](https://youtu.be/_zXa-UIFpgg).
 - [x] Review eligibility, AI-assistance disclosures and third-party notices.
-- [ ] Complete the final Devpost fields and submit the entry before the official deadline.
+- [x] Complete the final Devpost fields and [submit the entry](https://devpost.com/software/milestone-desk) before the official deadline.
 
-The Devpost entry is pending. No prize or submission success is claimed. Sandbox tests do not prove live merchant eligibility or production readiness.
+The [Milestone Desk entry](https://devpost.com/software/milestone-desk) is submitted to the PayPal AI Hackathon. Devpost displayed its submission confirmation and event association, with the revised narrated film embedded. Submission does not imply judging acceptance or a prize. Sandbox tests do not prove live merchant eligibility or production readiness.
 
 ## Demonstration
 

@@ -6,7 +6,7 @@
 
 [![Milestone Desk evidence review and milestone comparison](artifacts/thumbnail.png)](https://youtu.be/_zXa-UIFpgg)
 
-Explore the [desktop overview](artifacts/gallery/overview-1440-light.png), [dark evidence review](artifacts/gallery/evidence-1440-dark.png), and [mobile view](artifacts/gallery/evidence-390-light.png). Source and demonstration are public; the Devpost entry is pending.
+Explore the [desktop overview](artifacts/gallery/overview-1440-light.png), [dark evidence review](artifacts/gallery/evidence-1440-dark.png), and [mobile view](artifacts/gallery/evidence-390-light.png). Source and demonstration are public; the [Milestone Desk Devpost entry](https://devpost.com/software/milestone-desk) is submitted.
 
 Milestone Desk turns a vague “the work is done” claim into a reviewable record. Each milestone has acceptance criteria, an amount, supplied evidence, AI suggestions with exact excerpts, and a human decision. Once every criterion is accepted, the app can create an **unsent PayPal sandbox draft invoice** for that fixed scope.
 
@@ -97,7 +97,7 @@ All 17 automated domain/provider checks and the full browser journey passed. Bot
 
 Assets and API requests use relative paths. ProofDeck can mount the app at `/lab/milestone/` while the service listens on loopback port 4344. The proxy must authenticate its caller, strip the prefix, normalize the upstream Host and Origin, and forward `X-Milestone-Token`. The app uses no session cookie. AG Grid requires inline styles, so only this app’s proxy pages allow `style-src 'self' 'unsafe-inline'`. Scripts and connections remain same-origin.
 
-This release is a local single-owner app. Before exposing it publicly, add authenticated access and TLS at the proxy, define retention for project data, and keep the environment file private. The [2:09 narrated full-HD demo is public on YouTube](https://youtu.be/_zXa-UIFpgg), with a [downloadable copy in the GitHub release](https://github.com/imshkrsrvstv/milestone-desk/releases/download/v1.0.1/demo.mp4). Source and the verified free local setup are public. No hosted application is provided, and the Devpost entry is pending.
+This release is a local single-owner app. Before exposing it publicly, add authenticated access and TLS at the proxy, define retention for project data, and keep the environment file private. The [2:09 narrated full-HD demo is public on YouTube](https://youtu.be/_zXa-UIFpgg), with a [downloadable copy in the GitHub release](https://github.com/imshkrsrvstv/milestone-desk/releases/download/v1.0.1/demo.mp4). Source and the verified free local setup are public. No hosted application is provided. The [Devpost entry](https://devpost.com/software/milestone-desk) is submitted; submission does not imply judging acceptance or an award.
 
 ## Sources and licenses
 
