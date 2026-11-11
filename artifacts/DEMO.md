@@ -1,47 +1,25 @@
-# Milestone Desk demonstration
+# Milestone Desk demonstration — media refresh
 
-The refreshed film is `demo.mp4`: approximately 89 seconds, H.264, 1440 × 1000, with readable captions and no audio track. It is below the competition’s three-minute limit. `demo-captions.srt` and `demo-scenes.json` contain the matching text and measured timing.
+[Watch the public film](https://youtu.be/_zXa-UIFpgg). The current `demo.mp4` is **128.82 seconds** (about 2:09), 1920 × 1080 at 30 frames per second, H.264 video with **narrated AAC stereo audio**. It stays below the event's three-minute limit. This is the v1.0.1 media refresh; the v1.0.0 release remains available unchanged. The current script is [demo-storyboard.json](../docs/demo-storyboard.json), and `demo-captions.srt` contains matching subtitles.
 
-The recording uses the actual redesigned application through its local `/lab/milestone/` route. It shows both complete appearances, the genuine comparison grid and the actual review workflow. The project, client, delivery notes and reviewer identities are explicitly fictional.
+## Story and production
 
-The landing-page milestone’s AI suggestions, human acceptance and sandbox invoice were created and verified earlier. **The film labels these saved results honestly.** During recording, the app retrieves that same draft from the actual PayPal sandbox and strictly validates it again. No new invoice is created or retried; no invoice is sent. The final manual-review form contains unsaved demonstration decisions and does not unlock an invoice.
+1. The problem: delivery alone does not establish acceptance.
+2. The solution: one record connects agreed milestones, evidence, review and an unsent invoice draft. Actual AG Grid search and selection are shown.
+3. Evidence: inspect the agreed criteria and supplied delivery record.
+4. AI assistance: review saved real model suggestions with exact source quotations checked by the server.
+5. Human review: open another, unaccepted milestone; show its locked invoice step; enter an unsaved needs-work decision and reason.
+6. PayPal verification: retrieve and recheck the existing accepted milestone's sandbox draft. Nothing is sent and no new invoice is created.
+7. Closing: evidence → human acceptance → verified unsent draft.
 
-The source footage preserves actual interaction order and elapsed timing. No fixture provider response is substituted. The exported video adds a caption strip below the app footage; the browser recorder’s lower blank region is replaced by the matching scripted captions. The app footage is not altered to imply a provider result. `demo-source.webm` retains the original capture.
+The running application is captured at a fixed 1600 × 900 browser viewport and composed on a consistent 1920 × 1080 canvas. Authored graphics, a stable screen frame and restrained camera moves clarify the walkthrough. Clips are trimmed and timed to narration; the film is edited, not an uncut real-time claim. No app screen is generated. The current film does not show theme switching or the activity journal; those remain application features documented in the README.
 
-A private verification receipt is retained in `data/redesign-demo-verification.json`, excluded from public source. It confirms the same invoice ID and no additional attempt. No credentials, tokens, real client records or account settings appear in the film.
+The project, client, delivery text and reviewer identities are fictional. The landing-page milestone's AI suggestions, human acceptance and sandbox invoice were created and verified earlier. The film identifies those saved results. During recording, the app retrieves that same draft from the actual PayPal sandbox and validates its identity, recipient, amount and status. Supplied test logs are evidence claims, not proof that the app executed those tests. The manual review form remains unsaved and does not unlock an invoice.
 
-## Scene sequence
+## Voice, verification and assets
 
-1. Existing fictional project and the evidence-to-invoice purpose.
-2. Light and dark appearances.
-3. Real AG Grid search and milestone comparison.
-4. Actual evidence, human acceptance and invoice states.
-5. Source criteria and explicitly fictional delivery log.
-6. Saved real AI excerpts, validated against that log.
-7. Previously recorded human decisions and reasons.
-8. Existing verified sandbox draft.
-9. Fresh retrieval from the actual PayPal sandbox.
-10. Recorded activity journal and export option.
-11. A separate unaccepted milestone with invoice creation locked.
-12. Free manual review and unsaved requests for better evidence.
-13. Closing view in dark appearance.
+Narration uses **Kokoro-82M v1.0**, the `af_heart` synthetic voice at speed 0.97, rendered locally through `kokoro-onnx` 0.6.1. This is a neural voice, not a human recording or cloned identity. No music is included. The [Kokoro model](https://huggingface.co/hexgrad/Kokoro-82M) uses Apache-2.0; the [ONNX runtime wrapper](https://github.com/thewh1teagle/kokoro-onnx) uses MIT. The app itself has no speech-engine dependency.
 
-## Reproduce
+FFprobe verified dimensions, duration, frame rate and streams. Audio was normalized to −16 LUFS with a measured true peak of −1.5 dBTP. Signal checks confirm an audible, controlled track; subjective voice quality is not certified by these measurements. Representative opening, close-up, human-review and closing frames were checked for consistent framing and capture edges.
 
-Start the app with an existing fictional reviewed milestone and verified sandbox draft. The recorder requires that record and never creates an invoice. Its separate manual-review example saves only a local review on the second fictional milestone; the populated acceptance form is closed without saving.
-
-Set `PLAYWRIGHT_MODULE` to an installed Playwright module path if it is not in the project’s module search path. Use `DEMO_URL` to point to another local mount.
-
-```sh
-node scripts/record-demo.mjs
-node scripts/render-captions.mjs
-ffmpeg -i artifacts/demo-source.webm -f concat -safe 0 -i artifacts/caption-frames/concat.txt \
-  -filter_complex '[0:v]crop=1440:888:0:0[screen];[1:v]fps=25,format=yuv420p[caption];[screen][caption]vstack=inputs=2:shortest=1[v]' \
-  -map '[v]' -c:v libx264 -crf 20 -pix_fmt yuv420p -an -movflags +faststart artifacts/demo.mp4
-```
-
-## Gallery
-
-`thumbnail.png` is a direct 1200 × 800 view of the running redesigned application (3:2; approximately 100 KB). `gallery/` contains fresh desktop, 390px phone and 320px phone captures in both themes. Overview, evidence and receipt screens show only the existing fictional project. These are actual app screenshots, not mockups.
-
-Publication and Devpost submission are separate steps handled by the project owner’s publishing workflow.
+`thumbnail.png` is an authored product-film graphic. The gallery contains separate direct screenshots of both application themes and mobile layouts. Legacy local capture scripts and scene timings are not the current film recipe. Private provider records, credentials, raw captures and intermediate rendering assets are excluded from publication; the finished video, captions and portable script are included. Reproducing an actual provider readback requires the operator's own sandbox records and credentials.

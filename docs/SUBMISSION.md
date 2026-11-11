@@ -37,7 +37,7 @@ Original vanilla JavaScript interface, pinned AG Grid Community 36.3.0, Node.js 
 - [x] Publish the [public source repository](https://github.com/imshkrsrvstv/milestone-desk).
 - [x] Provide a [confirmed free local test setup](../README.md#run), including the verified local AI option.
 - [x] Record a working demo video under three minutes (`artifacts/demo.mp4`).
-- [x] Publish the [working demo on YouTube](https://youtu.be/eSDjjLaUI2M).
+- [x] Publish the [working demo on YouTube](https://youtu.be/_zXa-UIFpgg).
 - [x] Review eligibility, AI-assistance disclosures and third-party notices.
 - [ ] Complete the final Devpost fields and submit the entry before the official deadline.
 
@@ -45,6 +45,6 @@ The Devpost entry is pending. No prize or submission success is claimed. Sandbox
 
 ## Demonstration
 
-The [public captioned film](https://youtu.be/eSDjjLaUI2M), also available in `artifacts/demo.mp4`, shows the redesigned running app with a clearly fictional project. Its saved evidence mappings and human acceptance are existing verified records. The film rechecks the existing PayPal sandbox draft instead of creating another invoice. It shows the actual interface, grid filtering, both appearances, exact evidence excerpts, the recorded human decisions and the activity journal. See `artifacts/DEMO.md` for the scene list and recording limits.
+The [public narrated film](https://youtu.be/_zXa-UIFpgg), also available in `artifacts/demo.mp4`, follows the problem, solution, actual application walkthrough and closing. It uses a clearly fictional project. The saved evidence mappings and human acceptance are existing verified records. The film shows grid search and selection, supplied evidence, exact source excerpts, an unsaved human-review example, and actual readback of the existing PayPal sandbox draft. No new invoice is created or sent. See `artifacts/DEMO.md` for the seven-scene outline and recording limits.
 
 The final source and demo describe AI assistance accurately; no human-only authorship is claimed. AI assisted application development, and the application itself uses AI only to suggest evidence mappings. It never decides acceptance or creates invoices independently.

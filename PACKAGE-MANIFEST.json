@@ -25,29 +25,29 @@
       "sha256": "42a68caa2d40a03e7c13ac55e788a72c70863c9e2e607e1f1aa4d0bb734a7089"
     },
     {
-      "bytes": 9524,
+      "bytes": 10505,
       "path": "README.md",
-      "sha256": "0e3a38c7867e2547af786d48cbd0b30076613eceb8481ef3a4872003625a670b"
+      "sha256": "4f4524ae44b5a64a587370ad1444bc3645c028e93ee7cc738e64843c124f79a6"
     },
     {
-      "bytes": 2325,
+      "bytes": 2551,
       "path": "RELEASE-NOTES.md",
-      "sha256": "b15fb13aa2cd2c5790da24febeabc2ecd741cbf6aaf0c2ab4909dc41bad0efee"
+      "sha256": "e1666230fe0ce860f9affd84bdb263817fa9b93d333bc8d991d195dc660fd697"
     },
     {
-      "bytes": 3690,
+      "bytes": 3618,
       "path": "artifacts/DEMO.md",
-      "sha256": "f6c15368ccd20af6ee8288076f6e30c805bad6ef2a47e68159338c52735adcaf"
+      "sha256": "b13c4e23f8d6f451ef8add3de3387d3ec530e5440ef1d034efb858ca8e02b1bb"
     },
     {
-      "bytes": 2211,
+      "bytes": 2792,
       "path": "artifacts/demo-captions.srt",
-      "sha256": "6d0ff7002c5451ab4fb19ce03b026dba815bb364e3ea211790ebbecd9a576344"
+      "sha256": "ff60cdeec550cbad77e798aed094f426d921f9f14dbb8c23590a92e4a22575c7"
     },
     {
-      "bytes": 3384303,
+      "bytes": 19721195,
       "path": "artifacts/demo.mp4",
-      "sha256": "5baa99b1093878e60ded3bed1cc11c1810c46c379e1c5e273fc2e2219184545d"
+      "sha256": "95151f49b38fd9ced6e7d60fb0bc5ffa2c3a7a167ab5e5091cda8d2cbe3d3bb0"
     },
     {
       "bytes": 1528,
@@ -145,9 +145,9 @@
       "sha256": "ebf0d65fbfd7bab50093075b58980c875a2e1304191eb5cbcf755d8596f53a7e"
     },
     {
-      "bytes": 101524,
+      "bytes": 119471,
       "path": "artifacts/thumbnail.png",
-      "sha256": "1c40754fd2a9c24b50bcc558473538bbcb15a1d6e7b1397a9f3e6947fad244ad"
+      "sha256": "4ec1cd911a6bf28c24685fbd3463688d465e2aa465652109a21b551ea3b31d7c"
     },
     {
       "bytes": 1844,
@@ -165,14 +165,19 @@
       "sha256": "cac740bf8e5884b72e0f5e8cada733313692b6c5ec2e78b426f945eab417d159"
     },
     {
-      "bytes": 3674,
+      "bytes": 3884,
       "path": "docs/SUBMISSION.md",
-      "sha256": "ad086c960289a25dc8f196bab243d12b4d159ece25c6e00a6afa232d22dd87ec"
+      "sha256": "ef445757d0ccd1a01f226d446a64511324707d65f6801d09f393ecad0f6ed35f"
     },
     {
       "bytes": 7199,
       "path": "docs/ag-grid-package-manifest.json",
       "sha256": "957643e60a2a30a70864c7e5c7086b12bf4313d253dc0fcd2739fb632c9cb643"
+    },
+    {
+      "bytes": 4338,
+      "path": "docs/demo-storyboard.json",
+      "sha256": "737403422f571c3ddc407aac79197760b6866cbd49571034ccd9d7ed8661819f"
     },
     {
       "bytes": 575,
@@ -268,7 +273,11 @@
   "formatVersion": 1,
   "knownCredentialScan": "passed; credential and unknown fields scanned; public model defaults exempt; values never included",
   "portabilityEdits": [],
+  "previousReleasePreserved": "v1.0.0",
   "project": "Milestone Desk",
   "publicLanguageGate": "passed",
-  "status": "local-review-candidate-not-published"
+  "publishedVideo": "https://youtu.be/_zXa-UIFpgg",
+  "releaseVersion": "1.0.1",
+  "runtimeSourceChanged": false,
+  "status": "reviewed-media-refresh"
 }

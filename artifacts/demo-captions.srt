@@ -1,64 +1,119 @@
 1
-00:00:00,576 --> 00:00:07,167
-Proof before payment.
-Actual running app. Fictional client and evidence. Existing AI review and verified PayPal sandbox draft.
+00:00:00,450 --> 00:00:02,051
+The work is delivered.
 
 2
-00:00:07,167 --> 00:00:13,527
-A workspace that fits your working hours.
-Complete light and dark appearances, remembered on this device. Every state stays readable.
+00:00:02,051 --> 00:00:03,652
+The invoice is next.
 
 3
-00:00:13,527 --> 00:00:18,575
-Compare the work, then follow its evidence.
-Genuine AG Grid Community supports search, sorting and milestone selection.
+00:00:03,652 --> 00:00:07,254
+But did the delivery actually meet what was agreed?
 
 4
-00:00:18,575 --> 00:00:25,086
-Three separate checkpoints.
-Saved evidence → a human acceptance decision → a verified, unsent invoice. These are actual record states.
+00:00:07,254 --> 00:00:14,457
+For freelancers and small teams, that answer is often buried across messages, test logs, and someone else’s memory.
 
 5
-00:00:25,086 --> 00:00:32,098
-Start with the promised outcome and the source.
-This demonstration log is fictional. Supplied claims are not independent proof that work was completed.
+00:00:15,783 --> 00:00:19,088
+Milestone Desk brings those checkpoints into one place.
 
 6
-00:00:32,098 --> 00:00:39,620
-Saved results from a real AI review.
-Each cited excerpt must exist in the original evidence. The server discards fabricated quotations.
+00:00:19,088 --> 00:00:23,632
+Start with the agreed milestones, their amounts, and their acceptance criteria.
 
 7
-00:00:39,620 --> 00:00:46,639
-The human decision remains explicit.
-These previously recorded synthetic acceptance notes include a decision and reason for every criterion.
+00:00:23,632 --> 00:00:27,350
+This is the running application, using a fictional project.
 
 8
-00:00:46,639 --> 00:00:54,481
-An existing PayPal sandbox draft.
-This draft was created and verified earlier. The recording will retrieve it again, not create a new invoice.
+00:00:27,350 --> 00:00:33,134
+The interactive grid lets you search the work and choose exactly what to review.
 
 9
-00:00:54,481 --> 00:01:02,137
-Verified against the actual PayPal sandbox now.
-The application checks invoice identity, one recipient, line item, amount, currency and DRAFT state.
+00:00:34,450 --> 00:00:37,800
+Here is the promised outcome, alongside the delivery evidence.
 
 10
-00:01:02,137 --> 00:01:09,194
-A review trail you can explain.
-The activity journal records the sequence. Export the packet to retain criteria, excerpts and acceptance decisions.
+00:00:37,800 --> 00:00:42,638
+A test log or handover note gives the reviewer something concrete to inspect.
 
 11
-00:01:09,194 --> 00:01:15,857
-Unaccepted work stays separate.
-Selecting another milestone reveals its own evidence and locked invoice step. Acceptance is never inherited.
+00:00:42,638 --> 00:00:45,988
+The app treats that text as a supplied claim.
 
 12
-00:01:15,857 --> 00:01:23,443
-A review form with room for judgment.
-Manual review is free to explore. These unsaved example decisions request more evidence; no invoice is unlocked.
+00:00:45,988 --> 00:00:49,710
+It does not pretend to have run the tests itself.
 
 13
-00:01:23,443 --> 00:01:28,973
-Milestone Desk
-Evidence you can inspect. Acceptance you control. Sandbox drafts that stay unsent.
+00:00:51,017 --> 00:00:54,868
+These saved suggestions came from a real AI review.
+
+14
+00:00:54,868 --> 00:01:00,004
+Each criterion is connected to an exact excerpt from the original evidence.
+
+15
+00:01:00,004 --> 00:01:02,999
+The server checks that every quotation exists.
+
+16
+00:01:02,999 --> 00:01:06,423
+Invented quotations are rejected, and gaps remain visible.
+
+17
+00:01:06,423 --> 00:01:10,703
+The model helps you read; it cannot accept the work.
+
+18
+00:01:12,017 --> 00:01:16,625
+The final decision belongs to a person, criterion by criterion.
+
+19
+00:01:16,625 --> 00:01:22,154
+On another milestone, I can ask for more evidence and explain why.
+
+20
+00:01:22,154 --> 00:01:23,997
+This example stays unsaved.
+
+21
+00:01:23,997 --> 00:01:28,605
+Until every criterion is accepted, the invoice step remains locked.
+
+22
+00:01:28,605 --> 00:01:31,831
+An optimistic AI summary cannot unlock it.
+
+23
+00:01:33,150 --> 00:01:38,330
+For accepted work, Milestone Desk can prepare an unsent PayPal sandbox draft.
+
+24
+00:01:38,330 --> 00:01:40,057
+This one already exists.
+
+25
+00:01:40,057 --> 00:01:47,395
+Now we check it again against the actual sandbox, matching the invoice, recipient, amount, and draft status.
+
+26
+00:01:47,395 --> 00:01:51,711
+Nothing is sent, and this recording creates no new invoice.
+
+27
+00:01:53,017 --> 00:02:02,074
+Milestone Desk turns a vague handover into a review trail you can explain: the evidence, the human decision, and the verified draft.
+
+28
+00:02:02,074 --> 00:02:03,720
+AI assists the review.
+
+29
+00:02:03,720 --> 00:02:05,779
+You remain responsible for acceptance.
+
+30
+00:02:05,779 --> 00:02:07,837
+That is proof before payment.

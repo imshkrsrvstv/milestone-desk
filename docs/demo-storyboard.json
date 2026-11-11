@@ -1,0 +1,72 @@
+{
+  "project": "milestone-desk",
+  "name": "Milestone Desk",
+  "version": 2,
+  "viewport": {
+    "width": 1600,
+    "height": 900
+  },
+  "output": {
+    "width": 1920,
+    "height": 1080
+  },
+  "targetSeconds": 120,
+  "scenes": [
+    {
+      "id": "problem",
+      "kind": "title",
+      "title": "Delivered. But accepted?",
+      "caption": "A handover is not an acceptance decision.",
+      "narration": "The work is delivered. The invoice is next. But did the delivery actually meet what was agreed? For freelancers and small teams, that answer is often buried across messages, test logs, and someone else’s memory.",
+      "visual": "Opening graphic: three separate artifacts labelled Agreed scope, Delivery evidence, Invoice. Connect first two; leave invoice pending."
+    },
+    {
+      "id": "overview",
+      "kind": "demo",
+      "title": "One record, from delivery to draft.",
+      "caption": "Compare milestones. Follow the evidence.",
+      "narration": "Milestone Desk brings those checkpoints into one place. Start with the agreed milestones, their amounts, and their acceptance criteria. This is the running application, using a fictional project. The interactive grid lets you search the work and choose exactly what to review.",
+      "visual": "Actual overview. Search Content migration in AG Grid, clear, select accepted landing page."
+    },
+    {
+      "id": "evidence",
+      "kind": "demo",
+      "title": "Start with the source.",
+      "caption": "The promise and the delivery record, side by side.",
+      "narration": "Here is the promised outcome, alongside the delivery evidence. A test log or handover note gives the reviewer something concrete to inspect. The app treats that text as a supplied claim. It does not pretend to have run the tests itself.",
+      "visual": "Actual delivery-record and acceptance panels. Slight deliberate document scroll, fixed camera."
+    },
+    {
+      "id": "ai-review",
+      "kind": "demo",
+      "title": "AI finds the passages. You judge the work.",
+      "caption": "Saved real AI review · exact quotations checked.",
+      "narration": "These saved suggestions came from a real AI review. Each criterion is connected to an exact excerpt from the original evidence. The server checks that every quotation exists. Invented quotations are rejected, and gaps remain visible. The model helps you read; it cannot accept the work.",
+      "visual": "Saved AI summary and evidence matches. Hold first quoted excerpt then smoothly scroll to next."
+    },
+    {
+      "id": "human-review",
+      "kind": "demo",
+      "title": "Acceptance belongs to a person.",
+      "caption": "Each criterion needs a decision and a reason.",
+      "narration": "The final decision belongs to a person, criterion by criterion. On another milestone, I can ask for more evidence and explain why. This example stays unsaved. Until every criterion is accepted, the invoice step remains locked. An optimistic AI summary cannot unlock it.",
+      "visual": "Select unaccepted Content migration. Show locked invoice, open existing human review dialog, choose needs-work, type short reason; close without saving."
+    },
+    {
+      "id": "paypal-draft",
+      "kind": "demo",
+      "title": "Verified in PayPal. Still unsent.",
+      "caption": "Existing sandbox draft · live readback · no new invoice.",
+      "narration": "For accepted work, Milestone Desk can prepare an unsent PayPal sandbox draft. This one already exists. Now we check it again against the actual sandbox, matching the invoice, recipient, amount, and draft status. Nothing is sent, and this recording creates no new invoice.",
+      "visual": "Select accepted landing page, show acceptance record above invoice, click Check sandbox state, wait for actual success notice and hold."
+    },
+    {
+      "id": "closing",
+      "kind": "title",
+      "title": "Clear evidence. A deliberate decision.",
+      "caption": "Milestone Desk · Proof before payment.",
+      "narration": "Milestone Desk turns a vague handover into a review trail you can explain: the evidence, the human decision, and the verified draft. AI assists the review. You remain responsible for acceptance. That is proof before payment.",
+      "visual": "Closing graphic: Evidence → Human acceptance → Unsent draft. Brand and source URL."
+    }
+  ]
+}
